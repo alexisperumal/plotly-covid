@@ -48,6 +48,8 @@ Plotly.d3.json('https://raw.githubusercontent.com/plotly/datasets/master/3d-ribb
     type: 'surface',
     showscale: false
   }
+
+  console.log('trace1: ', trace1);
   
   var data = [trace1, trace2, trace3, trace4, trace5, trace6, trace7];
 
